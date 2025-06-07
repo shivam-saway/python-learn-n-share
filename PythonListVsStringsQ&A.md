@@ -20,7 +20,9 @@ What about strings?
 👨‍🏫 Mentor:
 A string like:
 
-`python s = "hello"`
+```python
+s = "hello"
+```
 
 is stored as a contiguous block of memory, holding the characters 'h', 'e', 'l', 'l', 'o'.
 
@@ -28,7 +30,9 @@ But here's the key part: strings are immutable — once created, their contents 
 
 So if you try:
 
-`python s[0] = 'H'`
+```python
+s[0] = 'H'
+```
 Python will throw an error:
 
 ```
