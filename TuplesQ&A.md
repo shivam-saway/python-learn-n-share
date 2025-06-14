@@ -121,4 +121,5 @@ print(population[("California", "Los Angeles")])  # Prints 3980400
 # Database row representation
 user = (1, "Alice", "alice@example.com")
 print(user)
+# (1, "Alice", "alice@example.com")
 ```
