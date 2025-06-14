@@ -122,4 +122,5 @@ print(population[("California", "Los Angeles")])  # Prints 3980400
 user = (1, "Alice", "alice@example.com")
 print(user)
 # (1, "Alice", "alice@example.com")
+
 ```
