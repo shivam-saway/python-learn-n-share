@@ -65,12 +65,12 @@ When should I prefer to use tuples in my code?
 ## 👨‍🏫 Mentor:
 You should prefer tuples when:
 
-✅ The collection is fixed and should not be modified afterwards.
-✅ The elements represent related but different items (like coordinates or color components).
-✅ Hashability or immutability is desirable (for use in sets or as dictionary keys).
-✅ The semantic structure is more important than adding or removing elements.
-✅ Some small performance optimizations can be a consideration due to their lightweight structure.
-✅ Maintaining data integrity — you want to make sure the data cannot be inadvertently changed.
+- ✅ The collection is fixed and should not be modified afterwards.
+- ✅ The elements represent related but different items (like coordinates or color components).
+- ✅ Hashability or immutability is desirable (for use in sets or as dictionary keys).
+- ✅ The semantic structure is more important than adding or removing elements.
+- ✅ Some small performance optimizations can be a consideration due to their lightweight structure.
+- ✅ Maintaining data integrity — you want to make sure the data cannot be inadvertently changed.
 
 ```python
 # Returning multiple values from a function
