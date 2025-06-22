@@ -77,8 +77,6 @@ like `rb`, `wb`, `ab` etc
 I noticed that in different modes, like 'a+' or 'r+', you mentioned the cursor position is at the start or end. What is this cursor exactly? Can I control it? And how does this relate to how Python reads and writes files?
 
 ### 👨‍🏫 Mentor:
-Brilliant question! You're thinking like a real developer now. 😄
-
 Let’s break it down and understand it step by step:
 
 So, let me answer your first question,
