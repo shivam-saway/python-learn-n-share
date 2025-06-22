@@ -219,3 +219,9 @@ You need to use external libraries built to understand Excel’s structure:
     df = pd.read_excel('data.xlsx')
     print(df.head())
 ```
+
+### 🎓 Student:
+Thank you so much! This has been a really insightful session.
+
+### 👨‍🏫 Mentor:
+You're most welcome!
