@@ -14,11 +14,11 @@ In Python, a file is an external resource — a place to store data permanently 
 
 We use files to:
 
-Save reports, logs, or results
+- Save reports, logs, or results
 
-Load datasets and configuration files
+- Load datasets and configuration files
 
-Store user data or program outputs
+- Store user data or program outputs
 
 They’re essential when you want your program to remember information or exchange data with the outside world.
 
@@ -45,7 +45,7 @@ Ok, I understand the basic code syntax, what could you please explain what is mo
 ### 👨‍🏫 Mentor:
 Ah, great observation! The mode tells Python what kind of access you want for the file — like whether you want to read, write, or append.
 
-*** 📘 File Modes in Python ***
+***📘 File Modes in Python***
 
 Here's a full list of modes you can use:
 
@@ -83,7 +83,7 @@ Let’s break it down and understand it step by step:
 
 So, let me answer your first question,
 
-*** What is a cursor ? ***
+***What is a cursor ?***
 
 When you open a file, Python maintains an internal pointer (called the cursor) that tells it where in the file to read from or write to.
 
@@ -98,7 +98,7 @@ When you open a file, Python maintains an internal pointer (called the cursor) t
         print(f.tell())     # ➝ 5 (cursor moved)
 ```
 
-*** Can you control the cursor ? ***
+***Can you control the cursor ?***
 
 You can move the cursor manually using .seek(offset, whence):
 
@@ -116,7 +116,7 @@ You can also use .tell() to find out where the cursor is:
     postion = f.tell()
 ```
 
-*** How Does Python Handle File Content Internally? ***
+***How Does Python Handle File Content Internally?***
 
 Python treats files as streams of bytes under the hood:
 
@@ -133,7 +133,7 @@ If I read the entire file at once using f.read(), and the file is very large, wo
 ### 👨‍🏫 Mentor:
 That’s exactly the kind of thinking that separates a beginner from a smart developer.
 
-*** So, Why Reading Large Files All At Once Can Be Dangerous ***
+***So, Why Reading Large Files All At Once Can Be Dangerous***
 
 - f.read() loads the entire file into memory.
 
@@ -147,7 +147,7 @@ That’s exactly the kind of thinking that separates a beginner from a smart dev
 
   - Even crash your application on low-resource systems
 
-*** Best Practice: Read Files Line-by-Line ***
+***Best Practice: Read Files Line-by-Line***
 
 Instead of this:
 
@@ -167,7 +167,7 @@ This way you safegurads your program from
 
 - Memory Limits
 
-*** Additional Best Practices for File Handling in Python ***
+***Additional Best Practices for File Handling in Python***
 
 - Use  `with` statments
 - Use `seek` and `tell` for control.
@@ -204,7 +204,7 @@ When you use Python's default open() function:
         print(f.read())
 ```
 
-*** How to Handle Excel Files in Python ***
+***How to Handle Excel Files in Python***
 
 You need to use external libraries built to understand Excel’s structure:
 
@@ -214,7 +214,7 @@ You need to use external libraries built to understand Excel’s structure:
 | `.xls`    | `xlrd`              | Read older Excel files (pre-2007) |
 | Both      | `pandas`            | Powerful tool for structured data |
 
-*** Example using pandas ***
+***Example using pandas***
 
 ```python
     import pandas as pd
